@@ -2,11 +2,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Nav from '../components/Nav'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function App() {
   return (
     <>
+      <Header />
+      <Nav />
       <h1>Hello, World!</h1>  
+      <Footer />
     </>
   )
   // const [count, setCount] = useState(0)

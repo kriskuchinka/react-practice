@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,33 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+/* Begin Additional Stylings */
+* {
+  margin: 0;
+}
+
+.nav {
+  background-color:rgb(77, 133, 205);
+  width: 100%;
+}
+
+.nav-logo {
+  /* padding: 20px; */
+  width: 100%;
+  background-color: rgb(77, 133, 205);
+}
+
+.nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+  color: #ffffff;
+  font-size: 1.5em;
 }
