@@ -7,9 +7,9 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
-       <>
-          <Nav />
+       <>          
           <footer className="footer">
+            <Nav />
             <ul>
                <li><FontAwesomeIcon icon={faTwitterSquare} /></li>
                <li><FontAwesomeIcon icon={faLinkedin} /></li>
