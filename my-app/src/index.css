@@ -96,3 +96,17 @@ button:focus-visible {
   color: #ffffff;
   font-size: 1.5em;
 }
+
+.footer {
+  background-color: rgb(77, 133, 205);
+  text-align: center;
+  color:#ffffff;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+  color: #ffffff;
+  font-size: 1.5em;
+}
