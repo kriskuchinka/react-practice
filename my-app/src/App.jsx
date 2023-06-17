@@ -4,6 +4,7 @@
 import './App.css'
 import Nav from '../components/Nav'
 import Header from '../components/Header'
+import MainContent from '../components/MainContent'
 import Footer from '../components/Footer'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <>
       <Header />
       <Nav />
-      <h1>Hello, World!</h1>  
+      <MainContent />  
       <Footer />
     </>
   )
