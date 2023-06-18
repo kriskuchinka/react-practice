@@ -20,11 +20,12 @@ import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 function App() {
   return (
       <ParallaxProvider>  
-        <Parallax speed={[10]}>
+        
           <Header />
-          <Nav />
+           
+           <Nav />
           <Hero1 />
-          <MainContent1 />
+            <MainContent1 />
           <Hero2 />  
           <MainContent2 />
           <Hero3 /> 
@@ -33,7 +34,7 @@ function App() {
           <MainContent4 />
           <Hero5 /> 
           <Footer />
-        </Parallax>
+       
       </ParallaxProvider>
   )
   // const [count, setCount] = useState(0)
